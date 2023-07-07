@@ -309,7 +309,7 @@ header{
    margin-left: 5rem;
    width: 70%;
 }
-.about__me,.research,.education,.work__exp{
+.about__me,.research,.education,.work__exp,.skill{
     margin-bottom: 2rem;
     padding-bottom: 2rem;
     border-bottom: 1px solid var(--title-color);
@@ -437,6 +437,10 @@ header{
      .work__exp{
         width: 90%;
      }
+     .skill{
+        width: 90%;
+        margin-bottom: 5rem;
+     }
      .education h3{
         width: 70%;
      }
@@ -447,6 +451,13 @@ header{
         width: 80%;
     }
 
+}
+
+@media screen and (max-width: 956px){
+    .header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media screen and (min-width: 767px){
